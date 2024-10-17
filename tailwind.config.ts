@@ -9,7 +9,10 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-  		colors: {
+		fontFamily: {
+			'nunito': ['Nunito Sans', 'sans-serif'],
+			'pixel': ['Pixelify Sans', 'sans-serif']
+		},colors: {
   			'dim-gray': '#6A6262',
   			battleship: '#30362F',
   			background: 'hsl(var(--background))',
@@ -60,6 +63,6 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [],
 };
 export default config;
